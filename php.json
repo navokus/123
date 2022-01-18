@@ -834,6 +834,16 @@
         },
         {
             "isTemplate": false,
+            "key": "phpsecurity:S6350",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Constructing arguments of system commands from user input is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
             "key": "php:S134",
             "lang": "php",
             "langName": "PHP",
@@ -934,6 +944,16 @@
         },
         {
             "isTemplate": false,
+            "key": "phpsecurity:S3649",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Database queries should not be vulnerable to injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
             "key": "php:S4507",
             "lang": "php",
             "langName": "PHP",
@@ -961,6 +981,16 @@
             "severity": "MAJOR",
             "status": "READY",
             "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5135",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Deserialization should not be vulnerable to injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
         },
         {
             "isTemplate": false,
@@ -1004,6 +1034,16 @@
         },
         {
             "isTemplate": false,
+            "key": "phpsecurity:S5334",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Dynamic code execution should not be vulnerable to injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
             "key": "php:S1523",
             "lang": "php",
             "langName": "PHP",
@@ -1039,6 +1079,16 @@
             "langName": "PHP",
             "name": "Encryption algorithms should be used with secure mode and padding scheme",
             "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5131",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Endpoints should not be vulnerable to reflected cross-site scripting (XSS) attacks",
+            "severity": "BLOCKER",
             "status": "READY",
             "type": "VULNERABILITY"
         },
@@ -1304,6 +1354,46 @@
         },
         {
             "isTemplate": false,
+            "key": "phpsecurity:S5146",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "HTTP request redirections should not be open to forging attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5167",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "HTTP response headers should not be vulnerable to injection attacks",
+            "severity": "MINOR",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S6287",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "HTTP responses should not be vulnerable to session fixation",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S2083",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "I/O function calls should not be vulnerable to path injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
             "key": "php:S1764",
             "lang": "php",
             "langName": "PHP",
@@ -1311,6 +1401,16 @@
             "severity": "MAJOR",
             "status": "READY",
             "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5335",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Include statements should not be vulnerable to injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
         },
         {
             "isTemplate": false,
@@ -1359,6 +1459,16 @@
             "langName": "PHP",
             "name": "LDAP connections should be authenticated",
             "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S2078",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "LDAP queries should not be vulnerable to injection attacks",
+            "severity": "BLOCKER",
             "status": "READY",
             "type": "VULNERABILITY"
         },
@@ -1431,6 +1541,16 @@
             "severity": "MAJOR",
             "status": "READY",
             "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5145",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Logging should not be vulnerable to injection attacks",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "VULNERABILITY"
         },
         {
             "isTemplate": false,
@@ -1601,6 +1721,26 @@
             "severity": "CRITICAL",
             "status": "READY",
             "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5883",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "OS commands should not be vulnerable to argument injection attacks",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S2076",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "OS commands should not be vulnerable to command injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
         },
         {
             "isTemplate": false,
@@ -1804,6 +1944,16 @@
         },
         {
             "isTemplate": false,
+            "key": "phpsecurity:S2631",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regular expressions should not be vulnerable to Denial of Service attacks",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
             "key": "php:S1862",
             "lang": "php",
             "langName": "PHP",
@@ -1889,6 +2039,16 @@
             "langName": "PHP",
             "name": "Server hostnames should be verified during SSL/TLS connections",
             "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S5144",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Server-side requests should not be vulnerable to forging attacks",
+            "severity": "MAJOR",
             "status": "READY",
             "type": "VULNERABILITY"
         },
@@ -2481,7 +2641,17 @@
             "severity": "BLOCKER",
             "status": "READY",
             "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "phpsecurity:S2091",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "XPath expressions should not be vulnerable to injection attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
         }
     ],
-    "total": 248
+    "total": 265
 }
