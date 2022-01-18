@@ -1,0 +1,2487 @@
+{
+    "p": 1,
+    "ps": 300,
+    "rules": [
+        {
+            "isTemplate": false,
+            "key": "php:S2014",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"$this\" should not be used in a static context",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2010",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"&&\" and \"||\" should be used",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1757",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"<?php\" and \"<?=\" tags should be used",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2757",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"=+\" should not be used instead of \"+=\"",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1605",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"__construct\" functions should not make PHP 4-style calls to parent constructors",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3334",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"allow_url_fopen\" and \"allow_url_include\" should be disabled",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2737",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"catch\" clauses should do more than rethrow",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3335",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"cgi.force_redirect\" should be enabled",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4524",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"default\" clauses should be first or last",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1793",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"elseif\" keyword should be used in place of \"else if\" keywords",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1155",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"empty()\" should be used to test for emptiness",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3337",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"enable_dl\" should be disabled",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1799",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"exit(...)\" and \"die(...)\" statements should not be used",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3338",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"file_uploads\" should be disabled",
+            "severity": "BLOCKER",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1990",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"final\" should not be used redundantly",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S127",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"for\" loop stop conditions should be invariant",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2011",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"global\" should not be used",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S907",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"goto\" statement should not be used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S126",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"if ... else if\" constructs should end with \"else\" clauses",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3333",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"open_basedir\" should limit file access",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2044",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"php_sapi_name()\" should not be used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2003",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"require_once\" and \"include_once\" should be used instead of \"require\" and \"include\"",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3336",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"session.use_trans_sid\" should not be enabled",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2964",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"sleep\" should not be called",
+            "severity": "MINOR",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1151",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"switch case\" clauses should not have too many lines of code",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S131",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"switch\" statements should have \"default\" clauses",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1301",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"switch\" statements should have at least 3 \"case\" clauses",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1821",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"switch\" statements should not be nested",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1479",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "\"switch\" statements should not have too many \"case\" clauses",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5361",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "`str_replace` should be preferred to `preg_replace`",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2251",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A \"for\" loop update clause should move the counter in the right direction",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1264",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A \"while\" loop should be used instead of a \"for\" loop",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1109",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A close curly brace should be located at the beginning of a line",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3973",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A conditionally executed single line should be denoted by indentation",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5876",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A new session should be created during user authentication",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1607",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A reason should be provided when skipping a test",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2115",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A secure password should be used when connecting to a database",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5713",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "A subclass should not be in the same \"catch\" clause as a parent class",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2050",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Alias functions should not be used",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1045",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "All \"catch\" blocks should be able to catch exceptions",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3923",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "All branches in a conditional structure should not have exactly the same implementation",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1763",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "All code should be reachable",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6345",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Allowing all external requests from a WordPress server is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5693",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Allowing requests with excessive content length is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6346",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Allowing unauthenticated database repair in WordPress is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6348",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Allowing unfiltered HTML content in WordPress is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5850",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Alternatives in regular expressions should be grouped when used with anchors",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1106",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "An open curly brace should be located at the beginning of a line",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1105",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "An open curly brace should be located at the end of a line",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3981",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Array or Countable object count comparisons should make sense",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4143",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Array values should not be replaced unconditionally",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3415",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Assertion arguments should be passed in the correct order",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5779",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Assertion failure exceptions should not be ignored",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5915",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Assertions should not be made at the end of blocks expecting an exception",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5863",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Assertions should not compare an object to itself",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1121",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Assignments should not be made from within sub-expressions",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5808",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Authorizations should be based on strong decisions",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6001",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Back references in regular expressions should only refer to capturing groups that are matched before the reference",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1940",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Boolean checks should not be inverted",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1125",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Boolean literals should not be redundant",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "common-php:InsufficientBranchCoverage",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Branches should have sufficient coverage by tests",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5708",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Caught Exceptions must derive from Throwable",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5869",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Character classes in regular expressions should not contain the same character twice",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5857",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Character classes should be preferred over reluctant quantifiers in regular expressions",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5547",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Cipher algorithms should be robust",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2830",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Class constructors should not create other objects",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S101",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Class names should comply with a naming convention",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5911",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Class of caught exception should be defined",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2166",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Classes named like \"Exception\" should extend \"Exception\" or a subclass",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1200",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Classes should not be coupled to too many other classes (Single Responsibility Principle)",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1820",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Classes should not have too many fields",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2042",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Classes should not have too many lines of code",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1448",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Classes should not have too many methods",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1780",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Closing tag \"?>\" should be omitted on files containing only PHP",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3776",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Cognitive Complexity of functions should not be too high",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1066",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Collapsible \"if\" statements should be merged",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2038",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Colors should be defined in upper case",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S139",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Comments should not be located at the end of lines of code",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3972",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Conditionals should start on new lines",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2918",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Configuration should not be changed dynamically",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4792",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Configuring loggers is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S115",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Constant names should comply with a naming convention",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6344",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Constants should not be redefined",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S134",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Control flow statements \"if\", \"for\", \"while\", \"switch\" and \"try\" should not be nested too deeply",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S121",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Control structures should use curly braces",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4834",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Controlling permissions is security-sensitive",
+            "severity": "MINOR",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3331",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Creating cookies with broadly defined \"domain\" flags is security-sensitive",
+            "severity": "INFO",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3330",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Creating cookies without the \"HttpOnly\" flag is security-sensitive",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2092",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Creating cookies without the \"secure\" flag is security-sensitive",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4426",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Cryptographic keys should be robust",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2277",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1311",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Cyclomatic Complexity of classes should not be too high",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1541",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Cyclomatic Complexity of functions should not be too high",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4507",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Delivering code in production with debug features activated is security-sensitive",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2001",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Deprecated features should not be used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1600",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Deprecated predefined variables should not be used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4508",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Deserializing objects from an untrusted source is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6343",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Disabling automatic updates is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4502",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Disabling CSRF protections is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4142",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Duplicate values should not be passed as arguments",
+            "severity": "MAJOR",
+            "status": "DEPRECATED",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1523",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Dynamically executing code is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1116",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Empty statements should be removed",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4787",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Encrypting data is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5542",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Encryption algorithms should be used with secure mode and padding scheme",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2002",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Errors should not be silenced",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3984",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Exceptions should not be created without being thrown",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5042",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Expanding archive files without controlling resource consumption is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1067",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Expressions should not be too complex",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "common-php:FailedUnitTests",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Failed unit tests should be fixed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S116",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Field names should comply with a naming convention",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1578",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "File names should comply with a naming convention",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S113",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Files should contain an empty newline at the end",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1996",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Files should contain only one top-level class or interface each",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2000",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Files should not contain characters before \"<?php\"",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1997",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Files should not contain inline HTML",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S104",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Files should not have too many lines of code",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2036",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Files that define symbols should not cause side-effects",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2077",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Formatting SQL queries is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5935",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Framework-provided functions should be used to test exceptions",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1226",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Function and method parameters' initial values should not be ignored",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2007",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Functions and variables should not be defined outside of classes",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2004",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Functions should not be nested too deeply",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1142",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Functions should not contain too many return statements",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S138",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Functions should not have too many lines of code",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S107",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Functions should not have too many parameters",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3801",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Functions should use \"return\" consistently",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S112",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Generic exceptions ErrorException, RuntimeException and Exception should not be thrown",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2068",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Hard-coded credentials are security-sensitive",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2053",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Hashes should include an unpredictable salt",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5122",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1764",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Identical expressions should not be used on both sides of a binary operator",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S881",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Increment (++) and decrement (--) operators should not be used in a method call or mixed with other operators in an expression",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S110",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Inheritance tree of classes should not be too deep",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S114",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Interface names should comply with a naming convention",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3626",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Jump statements should not be redundant",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4433",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "LDAP connections should be authenticated",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "common-php:InsufficientLineCoverage",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Lines should have sufficient coverage by tests",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S103",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Lines should not be too long",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1131",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Lines should not end with trailing whitespaces",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2701",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Literal boolean values and nulls should not be used in equality assertions",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S117",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Local variable and function parameter names should comply with a naming convention",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1488",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Local variables should not be declared and then immediately returned or thrown",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1117",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Local variables should not have the same name as class fields",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1751",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Loops with at most one iteration should be refactored",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5328",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Manual generation of session ID is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S100",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Method and function names should comply with a naming convention",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1788",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Method arguments with default values should be last",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1784",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Method visibility should be explicitly declared",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1186",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Methods should not be empty",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4144",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Methods should not have identical implementations",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1124",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Modifiers should be declared in the correct order",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1766",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "More than one property should not be declared per statement",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2681",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Multiline blocks should be enclosed in curly braces",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2278",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Neither DES (Data Encryption Standard) nor DESede (3DES) should be used",
+            "severity": "BLOCKER",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S108",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Nested blocks of code should not be left empty",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S905",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Non-empty statements should change control flow or have at least one side-effect",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1848",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Objects should not be created to be dropped immediately without being used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1314",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Octal values should not be used",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1779",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Only LF character (Unix-like) should be used to end lines",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5783",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Only one method invocation is expected when testing exceptions",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1185",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Overriding methods should do more than simply call the same method in the super class",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2234",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Parameters should be passed in the correct order",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2041",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Parentheses should not be used for calls to \"echo\"",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2046",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Perl-style comments should not be used",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1603",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "PHP 4 constructor declarations should not be used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1781",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "PHP keywords and constants \"true\", \"false\", \"null\" should be lower case",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2260",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "PHP parser failure",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5785",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "PHPUnit assertTrue/assertFalse should be simplified to the corresponding dedicated assertion",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5632",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Raised Exceptions must derive from Throwable",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4829",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Reading the Standard Input is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1110",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Redundant pairs of parentheses should be removed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1998",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "References should not be passed to function calls",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4824",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "References used in \"foreach\" loops should be \"unset\"",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3011",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Reflection should not be used to increase accessibility of classes, methods, or fields",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5855",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regex alternatives should not be redundant",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5996",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regex boundaries should not be used in a way that can never be matched",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6002",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regex lookahead assertions should not be contradictory",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5994",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regex patterns following a possessive quantifier should not always fail",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5856",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regular expressions should be syntactically valid",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5843",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Regular expressions should not be too complicated",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1862",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Related \"if/else if\" statements and \"cases\" in a \"switch\" should not have the same condition",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6019",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Reluctant quantifiers in regular expressions should be followed by an expression that can't match the empty string",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5842",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Repeated patterns in regular expressions should not match the empty string",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1126",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Return of boolean expressions should not be wrapped into an \"if-then-else\" statement",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2201",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Return values from functions without side effects should not be ignored",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6339",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Secret keys and salt values should be robust",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S125",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Sections of code should not be commented out",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4830",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Server certificates should be verified during SSL/TLS connections",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5527",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Server hostnames should be verified during SSL/TLS connections",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3332",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Session-management cookies should not be persistent",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2612",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Setting loose POSIX file permissions is security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2070",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "SHA-1 and Message-Digest hash algorithms should not be used in secure contexts",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1697",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Short-circuit logic should be used to prevent null pointer dereferences in conditionals",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4828",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Signalling processes is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6035",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Single-character alternations in regular expressions should be replaced with character classes",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "common-php:SkippedUnitTests",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Skipped unit tests should be either removed or fixed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1808",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Source code should comply with formatting standards",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "common-php:InsufficientCommentDensity",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Source files should have a sufficient density of comment lines",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "common-php:DuplicatedBlocks",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Source files should not have any duplicated blocks",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S122",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Statements should be on separate lines",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2037",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Static members should be referenced with \"static::\"",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2005",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "String literals should not be concatenated",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1192",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "String literals should not be duplicated",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2043",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Superglobals should not be accessed directly",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S128",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Switch cases should end with an unconditional \"break\" statement",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S105",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Tabulation characters should not be used",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3358",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Ternary operators should not be nested",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3360",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Test class names should end with \"Test\"",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5899",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Test methods should be discoverable",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2187",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "TestCases should contain tests",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2699",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Tests should include assertions",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1765",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "The \"var\" keyword should not be used",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2047",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "The names of methods with boolean return values should start with \"is\" or \"has\"",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S930",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "The number of arguments passed to a function should match the number of parameters",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S3699",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "The output of functions that don't return anything should not be used",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1451",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Track lack of copyright and license headers",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1134",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Track uses of \"FIXME\" tags",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:NoSonar",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Track uses of \"NOSONAR\" comments",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1135",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Track uses of \"TODO\" tags",
+            "severity": "INFO",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1871",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Two branches in a conditional structure should not have exactly the same implementation",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2761",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unary prefix operators should not be repeated",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5868",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unicode Grapheme Clusters should be avoided inside regex character classes",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5867",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unicode-aware versions of character classes should be preferred",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1068",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unused \"private\" fields should be removed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1144",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unused \"private\" methods should be removed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1854",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unused assignments should be removed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1172",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unused function parameters should be removed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1481",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Unused local variables should be removed",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1075",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "URIs should not be hardcoded",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4833",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Use of namespaces should be preferred to \"include\" or \"require\" functions",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1145",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Useless \"if(true) {...}\" and \"if(false){...}\" blocks should be removed",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S5332",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using clear-text protocols is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4823",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using command line arguments is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1313",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using hardcoded IP addresses is security-sensitive",
+            "severity": "MINOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2245",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4784",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using regular expressions is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4818",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using Sockets is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4790",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Using weak hashing algorithms is security-sensitive",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2123",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Values should not be uselessly incremented",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1599",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Variable variables should not be used",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S836",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Variables should be initialized before use",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S1656",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Variables should not be self-assigned",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "BUG"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S4423",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Weak SSL/TLS protocols should not be used",
+            "severity": "CRITICAL",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6349",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "WordPress option names should not be misspelled",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6347",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "WordPress options should not be defined at the end of \"wp-config.php\"",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "CODE_SMELL"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S6341",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "WordPress theme and plugin editors are security-sensitive",
+            "severity": "MAJOR",
+            "status": "READY",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2255",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "Writing cookies is security-sensitive",
+            "severity": "MINOR",
+            "status": "DEPRECATED",
+            "type": "SECURITY_HOTSPOT"
+        },
+        {
+            "isTemplate": false,
+            "key": "php:S2755",
+            "lang": "php",
+            "langName": "PHP",
+            "name": "XML parsers should not be vulnerable to XXE attacks",
+            "severity": "BLOCKER",
+            "status": "READY",
+            "type": "VULNERABILITY"
+        }
+    ],
+    "total": 248
+}
